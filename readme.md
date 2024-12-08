@@ -5,8 +5,17 @@ Healthcare API is a RESTful API built with Node.js, Express, and Sequelize. It p
 ## Installation
 
 1. Create a database named `healthcare`.
-2. Run `npm install` to install the dependencies.
-3. Run `npm run dev` to start the server.
+2. .env configuration:
+   ```
+   PORT=5001
+   DB_HOST=localhost
+   DB_NAME=healthcare
+   DB_USER=postgres
+   DB_PASSWORD=manchester
+   JWT_SECRET=your_jwt_secret
+   ```
+3. Run `npm install` to install the dependencies.
+4. Run `npm run dev` to start the server.
 
 ## Testing
 
